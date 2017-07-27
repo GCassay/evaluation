@@ -1,7 +1,7 @@
 # AngularJS Evaluation Project
 https://geacassay.gitlab.io/AngularJSEval/
 
-## Get Started
+## GET STARTED
 1. Download project from GIT
 
 ###### *Run http server if needed*
@@ -11,7 +11,7 @@ https://geacassay.gitlab.io/AngularJSEval/
 5. $ http-server -p 8010 -c-1 path/to/project/folder
 7. Browser Url: localhost:8010/public
 
-## Brief
+## BRIEF
 Project made with love and:
 - HTML5
 - CSS3
