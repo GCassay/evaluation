@@ -41,3 +41,8 @@ Project made with love and:
   - Dynamic Chart
   - Data loaded from external JSON file 'stats.json'
   - Hover effect
+
+### Improvements
+- CSS and JS minify and concat
+- SASS Features
+- Click event functions
