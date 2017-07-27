@@ -1,5 +1,5 @@
 # AngularJS Evaluation Project
-http://
+https://geacassay.gitlab.io/AngularJSEval/
 
 ## Get Started
 1. Download project from GIT
@@ -17,6 +17,7 @@ Project made with love and:
 - CSS3
 - AngularJS [+ Angular Translate Module]
 - JS
+- JSON files to load language data
 - Chart.js Library
 - normalize.min.css
 - modernizr.min.js
@@ -35,6 +36,7 @@ Project made with love and:
   - Tooltips
   - Data loaded from external JSON file 'user.json'
 - USERCONFIG
+  - Placerholder images from http://lorempixel.com/
   - Hover effect
   - Font Icons
   - Change Language Option
@@ -47,3 +49,4 @@ Project made with love and:
 - CSS and JS minify and concat
 - SASS Features
 - Click event functions
+- Stats Widget tab functionality
