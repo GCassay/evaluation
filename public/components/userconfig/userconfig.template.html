@@ -1,0 +1,30 @@
+<div class="widget__userconfig">
+
+  <div class="userconfig__top">
+    <figure class="avatar">
+      <img src="http://lorempixel.com/74/74/people/1" alt="User Avatar" title="User Avatar">
+    </figure>
+    <div class="config__data">
+      <p>Courney Timmons</p>
+      <p>15000 {{ 'CONFIG6' | translate }}</p>
+    </div>
+  </div>
+
+  <div class="userconfig__menu">
+    <ul class="userconfig__menu__items">
+      <li class="userconfig__menu__item1" translate="CONFIG1"></li>
+      <li class="userconfig__menu__item2" translate="CONFIG2"></li>
+      <li class="userconfig__menu__item3" translate="CONFIG3"></li>
+      <li class="userconfig__menu__item4" translate="CONFIG4"></li>
+    </ul>
+  </div>
+
+  <div class="userconfig_lang">
+    {{ 'CONFIG5' | translate }}
+    <figure class="lang__flag">
+      <img src="./assets/imgs/en.png" alt="English" title="{{ 'BTN_EN' | translate }}" ng-click="changeLanguage('en')" translate="BTN_EN">
+      <img src="./assets/imgs/es.png" alt="Spanish" title="{{ 'BTN_ES' | translate }}" ng-click="changeLanguage('es-ES')" translate="BTN_ES">
+    </figure>
+  </div>
+
+</div>

@@ -1,0 +1,28 @@
+{
+  "MENU1": "Registro",
+  "MENU2": "Eventos",
+  "MENU3": "Cuenta",
+  "MENU4": "Ajustes",
+
+  "USERCARD1": "Visitas",
+  "USERCARD2": "Comentarios",
+  "USERCARD3": "Seguidores",
+
+  "CONFIG1": "Editar usuario",
+  "CONFIG2": "Estadísticas",
+  "CONFIG3": "Ajustes de Subida",
+  "CONFIG4": "Eventos",
+  "CONFIG5": "Idioma",
+  "CONFIG6": "Seguidores",
+  "BTN_ES": "Español",
+  "BTN_EN": "Inglés",
+
+  "STATS1": "Gráfico estadístico",
+  "STATS2": "Reporte del mes",
+  "STATS3": "audio",
+  "STATS4": "video",
+  "STATS5": "fotos",
+  "STATS6": "Subir Archivo",
+  "STATS7": "Compartir",
+  "STATS8": "Guardar Copia"
+}

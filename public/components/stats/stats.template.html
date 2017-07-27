@@ -1,0 +1,25 @@
+<div class="widget__stats">
+
+  <div class="stats__tabs">
+    <ul>
+      <li translate="STATS1" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(1) }" ng-click="$ctrl.setTab(1)"></li>
+      <li translate="STATS2" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(2) }" ng-click="$ctrl.setTab(2)"></li>
+    </ul>
+  </div>
+
+  <div class="stats__donut">
+    <canvas id="myChart" width="300" height="300"></canvas>
+  </div>
+
+  <div class="stats__data">
+    <p class="stats__data__audio" style="border-top: 4px solid {{$ctrl.color[0]}}">{{ 'STATS3' | translate }}<span class="data__percent">{{$ctrl.value[0]}}</span></p>
+    <p class="stats__data__video" style="border-top: 4px solid {{$ctrl.color[1]}}">{{ 'STATS4' | translate }}<span class="data__percent">{{$ctrl.value[1]}}</span></p>
+    <p class="stats__data__photo" style="border-top: 4px solid {{$ctrl.color[2]}}">{{ 'STATS5' | translate }}<span class="data__percent">{{$ctrl.value[2]}}</span></p>
+  </div>
+
+  <div class="stats__options">
+    <p class="stats__options__1" translate="STATS6"></p>
+    <p class="stats__options__2" translate="STATS7"></p>
+    <p class="stats__options__3" translate="STATS8"></p>
+  </div>
+</div>

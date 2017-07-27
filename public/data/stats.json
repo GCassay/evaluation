@@ -1,0 +1,26 @@
+[
+  {
+    "value": 55,
+    "color": "#4daf7b",
+    "highlight": "#51c185",
+    "label": "audio"
+  },
+  {
+    "value": 23,
+    "color": "#f7464a",
+    "highlight": "#ff5a5e",
+    "label": "video"
+  },
+  {
+    "value": 17,
+    "color": "#fdb45c",
+    "highlight": "#ffc870",
+    "label": "photo"
+  },
+  {
+    "value": 5,
+    "color": "#f4ede7",
+    "highlight": "#d4ccc6",
+    "label": "others"
+  }
+]

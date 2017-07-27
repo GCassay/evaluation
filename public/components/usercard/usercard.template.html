@@ -1,0 +1,23 @@
+<div class="widget__usercard">
+
+  <div class="usercard__img"></div>
+
+  <div class="usercard__profile">
+    <figure class="avatar">
+      <img src="{{ $ctrl.avatar }}" alt="User Avatar" title="User Avatar">
+    </figure>
+    <div class="profile__data">
+      <p>{{ $ctrl.name }}</p>
+      <p>{{ $ctrl.quote }}</p>
+    </div>
+  </div>
+
+  <div class="usercard__social">
+    <ul>
+      <li class="usercard__social__item social__item__1"><span tooltip="{{ 'USERCARD1' | translate }}" >{{ $ctrl.views }}</span></li>
+      <li class="usercard__social__item social__item__2"><span tooltip="{{ 'USERCARD2' | translate }}" >{{ $ctrl.comments }}</span></li>
+      <li class="usercard__social__item social__item__3"><span tooltip="{{ 'USERCARD3' | translate }}" >{{ $ctrl.followers }}</span></li>
+    </ul>
+  </div>
+
+</div>

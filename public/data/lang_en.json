@@ -1,0 +1,28 @@
+{
+  "MENU1": "Check in",
+  "MENU2": "Events",
+  "MENU3": "Account",
+  "MENU4": "Settings",
+
+  "USERCARD1": "Views",
+  "USERCARD2": "Comments",
+  "USERCARD3": "Followers",
+
+  "CONFIG1": "Edit user",
+  "CONFIG2": "Web statistics",
+  "CONFIG3": "Upload settings",
+  "CONFIG4": "Events",
+  "CONFIG5": "Language",
+  "CONFIG6": "Followers",
+  "BTN_ES": "Spanish",
+  "BTN_EN": "English",
+
+  "STATS1": "Diagram Stats",
+  "STATS2": "Month Report",
+  "STATS3": "audio",
+  "STATS4": "video",
+  "STATS5": "photo",
+  "STATS6": "Upload files",
+  "STATS7": "Share link",
+  "STATS8": "Back up"
+}
