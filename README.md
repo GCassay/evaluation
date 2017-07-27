@@ -1,5 +1,5 @@
 # AngularJS Evaluation Project
-https://geacassay.gitlab.io/AngularJSEval/
+http://geacassay.gitlab.io/AngularJSEval/
 
 ## GET STARTED
 1. Download project from GIT
