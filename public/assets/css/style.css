@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'FontAwesome';
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype');
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype');
-  src: local('FontAwesome'), url('../../assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-family: 'FontAwesome', Arial;
+  src: url('../../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype');
+  src: url('../../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
+  src: url('../../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
+  src: url('../../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype');
+  src: url('../../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
 }
 
 /* GLOBAL */
@@ -99,7 +99,7 @@ body * {
   cursor: pointer;
 }
 .fa::before {
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome', Arial;
   font-weight: normal;
   margin-right: 10px;
   font-size: 1.2rem;
@@ -203,12 +203,12 @@ body * {
   border-right: 1px solid #fff;
 }
 .fontaw {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', Arial;
   font-size: 1.2rem;
   margin-right: 10px;
 }
 .usercard__social__item::before {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', Arial;
   font-size: 1.2rem;
   margin-right: 10px;
 }
@@ -307,7 +307,7 @@ li.stats__inactiveTab {
   background-color: rgba(30, 30, 30, .3);
 }
 .stats__options p::before {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', Arial;
   font-size: 1.5rem;
   display: block;
   font-weight: lighter;
@@ -384,7 +384,7 @@ li.stats__inactiveTab {
   color: #e55f3b;
 }
 .userconfig__menu__items li::before {
-  font-family: 'FontAwesome';
+  font-family: 'FontAwesome', Arial;
   font-size: 1.4rem;
   float: right;
   color: #c6bfb8;
