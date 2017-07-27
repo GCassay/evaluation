@@ -3,6 +3,7 @@ http://
 
 ## Get Started
 1. Download project from GIT
+
 ###### *Run http server if needed*
 2. Open terminal
 3. cd inside project folder
