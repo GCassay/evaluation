@@ -26,18 +26,18 @@ Project made with love and:
 
 ### Widgets
 - MENU
--- Hover transition effect on menu elements
--- Font Icons
+  - Hover transition effect on menu elements
+  - Font Icons
 - USERCARD
--- Placerholder images from http://lorempixel.com/
--- Font Icons
--- Tooltips
--- Data loaded from external JSON file 'user.json'
+  - Placerholder images from http://lorempixel.com/
+  - Font Icons
+  - Tooltips
+  - Data loaded from external JSON file 'user.json'
 - USERCONFIG
--- Hover effect
--- Font Icons
--- Change Language Option
+  - Hover effect
+  - Font Icons
+  - Change Language Option
 - STATS
--- Dynamic Chart
--- Data loaded from external JSON file 'stats.json'
--- Hover effect
+  - Dynamic Chart
+  - Data loaded from external JSON file 'stats.json'
+  - Hover effect
