@@ -527,6 +527,8 @@ li.userconfig__menu__item4::before {
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: #f6f0ec;
+  }
+  .menu li:first-child, .menu li:last-child {
     border-radius: 0;
   }
   .blocks {
