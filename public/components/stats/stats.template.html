@@ -2,13 +2,13 @@
 
   <div class="stats__tabs">
     <ul>
-      <li translate="STATS1" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(1) }" ng-click="$ctrl.setTab(1)"></li>
-      <li translate="STATS2" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(2) }" ng-click="$ctrl.setTab(2)"></li>
+      <li translate="STATS1" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(0) }" ng-click="$ctrl.setTab(0); $ctrl.chartData()" ng-init="$ctrl.chartData(1)"></li>
+      <li translate="STATS2" ng-class="{ stats__inactiveTab: !$ctrl.isSetTab(1) }" ng-click="$ctrl.setTab(1); $ctrl.chartData()"></li>
     </ul>
   </div>
 
   <div class="stats__donut">
-    <canvas id="myChart" width="300" height="300"></canvas>
+    <canvas id="diagram" width="300" height="300"></canvas>
   </div>
 
   <div class="stats__data">
