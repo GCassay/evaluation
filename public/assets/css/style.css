@@ -18,11 +18,11 @@ body {
   min-width: 100%;
   min-height: 100%;
   background-attachment: fixed;
+  font-family: 'Open Sans', Arial;
   color: #8e8071;
 }
 body * {
   box-sizing: border-box;
-  font-family: 'Open Sans', Arial;
 }
 .wrapper {
   position: absolute;
@@ -75,6 +75,7 @@ body * {
   border-bottom: 4px solid #fff;
   text-transform: uppercase;
   transition: .3s linear all;
+  font-family: 'Open Sans', Arial;
 }
 .menu li:first-child {
   border-radius: 5px 0 0 5px;
