@@ -51,7 +51,6 @@ Project made with love and:
 - CSS and JS minify and concat
 - SASS Features
 - Click event functions
-- Stats Widget tab functionality
 
 ### Notes
 - External Placerholder images may cause console warnings in some browsers
